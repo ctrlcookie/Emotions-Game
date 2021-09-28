@@ -14,7 +14,7 @@ public class BackgroundHider : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.name.Equals("Player"))
+        if (col.gameObject.name.Equals("room light checker"))
         {
             m_SpriteRenderer.enabled = false;
 
